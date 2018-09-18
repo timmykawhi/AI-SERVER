@@ -18,9 +18,9 @@ var upload = multer({dest:'page/uploads'});
 
 
 // 设置APPID/AK/SK
-var APP_ID = "";
-var API_KEY = "";
-var SECRET_KEY = "";
+var APP_ID = "13853929";
+var API_KEY = "3bhaRCCHoAcdIZ5ZPsHhI4A8";
+var SECRET_KEY = "jgq4mzcwaqgQrHdRcQQ5OPijnL52zdrv";
 
 // 新建一个对象，建议只保存一个对象调用服务接口
 var client = new AipImageClassifyClient(APP_ID, API_KEY, SECRET_KEY);
